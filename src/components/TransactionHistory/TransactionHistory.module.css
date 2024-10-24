@@ -1,0 +1,38 @@
+.tableTransaction {
+  width: 900px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 60px;
+}
+.headTable {
+  width: calc(100% / 3);
+  color: var(--color-light);
+  background-color: var(--color-dark-gray);
+}
+
+.headTable th {
+  border: 1px solid black;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.tableRow {
+}
+
+.tableRow td {
+  width: calc(100% / 3);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+
+  border: 1px solid black;
+  padding: 8px;
+}
+
+.tableRow:nth-child(even) {
+  background-color: var(--color-tablet-lou-dark);
+}
+
+.tableRow:nth-child(odd) {
+  background-color: var(--color-tablet-light);
+}
