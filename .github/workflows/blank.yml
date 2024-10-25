@@ -35,4 +35,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # Замість './build' вкажіть директорію збірки вашого проекту (наприклад, './dist' для Vite)
+          publish_dir: ./dist # Використовуємо './dist' як директорію збірки для Vite
